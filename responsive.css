@@ -1,0 +1,61 @@
+@media screen and (max-width: 601px) {
+     body {
+      display: grid
+      /* grid-template-columns: 300px auto; */
+}
+    #menu {
+      display: none;
+    }
+  
+    #menu {
+      display: block;
+    }
+  
+    #drawer {
+      display: none ;
+    }
+
+     /* .nav {
+        z-index: 10;
+        background-color: black;
+        width: 300px;
+        position: absolute; 
+     } */
+
+     /* .nav-item {
+      flex-direction: column;
+     } */
+        /* This trasform moves the drawer off canvas. */
+         /* -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+     */
+        /* Optionally, we animate the drawer. */
+        /* transition: transform 0.3s ease;
+      } */
+    
+      /* .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+      } */
+    
+      /* .nav__item {
+        display: list-item;
+        border-bottom: 1px solid black;
+        width: 100%;
+        text-align: left;
+      } */
+    
+    }
+
+
+
+
+  @media screen and (min-width: 600px) {
+    #menu {
+      display: none;
+    }
+  
+    #drawer {
+      display: block;
+    }
+}
